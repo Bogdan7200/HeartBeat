@@ -2,13 +2,12 @@
 <resources>
     <string name="app_name">HeartBeat</string>
     <string name="output_hint">
-        Te rugăm să plasezi degetul pe camera dispozitivului, acoperind și blițul. După
+        Plasază degetul pe camera dispozitivului, acoperind și blițul. După
         10 secunde, poți exporta rezultatele din meniu.
         \n\nAceastă aplicație funcționează măsurând cantitatea de roșu detectată prin cameră și
         încercând să identifice fluctuațiile.
-        \nFuncționează mai bine într-o cameră întunecată și când presiunea pe cameră rămâne constantă.
-        \nDacă dispozitivul tău are mai multe camere, asigură-te că degetul acoperă întregul
-        câmp vizual din micul vizor.
+        \nFuncționează mai bine într-o cameră întunecată și când presiunea aplicată pe cameră rămâne constantă.
+        \nDacă dispozitivul tău are mai multe camere, asigură-te că degetul acoperă camera principală.
         \nDupă finalizarea măsurării, rezultatul poate fi exportat sau măsurarea poate fi repetată din meniu.
     </string>
     <string name="output_header_template">Ritmul cardiac la %s</string>
@@ -22,12 +21,13 @@
     <string name="new_measurement">Măsurare nouă</string>
     <string name="export_result">Exportă rezultatul</string>
     <string name="export_details">Exportă detaliile</string>
-    <string name="dateFormat">yyyy-MM-dd\'T\'HH:mm:ssZZZZZ</string>
-    <string name="dateFormatGranular">yyyy-MM-dd\'T\'HH:mm:ss.SSSZZZZZ</string>
+    <string name="dateFormat">dd-MM-yyyy\'T\'HH:mm:ssZZZZZ</string>
+    <string name="dateFormatGranular">dd-MM-yyyy\'T\'HH:mm:ss.SSSZZZZZ</string>
     <string name="camera_not_found">Camera nu este disponibilă.</string>
     <plurals name="measurement_output_template">
-        <item quantity="zero">Puls: %2.1f (%d cicluri în %2.1f secunde)</item>
-        <item quantity="one">Puls: %2.1f (%d ciclu în %2.1f secunde)</item>
-        <item quantity="other">Puls: %2.1f (%d cicluri în %2.1f secunde)</item>
-    </plurals>
+    <item quantity="zero">Ritm: %2.1f (%d cicluri în %2.1f secunde)</item>
+    <item quantity="one">Ritm: %2.1f (%d ciclu în %2.1f secunde)</item>
+    <item quantity="few">Ritm: %2.1f (%d cicluri în %2.1f secunde)</item>
+    <item quantity="other">Ritm: %2.1f (%d cicluri în %2.1f secunde)</item>
+</plurals>
 </resources>
