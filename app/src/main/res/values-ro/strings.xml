@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  App Name  -->
+    <string name="app_name">HeartBeat</string>
+
+    <!--  Main Activity  -->
+    <string name="measurement_button">Începe măsurarea</string>
+    <string name="measurement_in_progress">Măsurare în curs…</string>
+    <string name="measuring">Se măsoară…</string>
+    <string name="stop_measurement">Oprește măsurarea</string>
+
+    <!--  Instructions  -->
+    <string name="instructions_title">Instrucțiuni</string>
+    <string name="instructions_text">Acoperă camera și blițul cu degetul arătător și stai nemișcat timp de 10–15 secunde.</string>
+    <string name="place_finger">Plasează-ți degetul pe cameră</string>
+    <string name="cover_camera_flash">Acoperă camera și blițul</string>
+    <string name="keep_still">Stai nemișcat</string>
+    <string name="best_in_dark">Funcționează cel mai bine în întuneric</string>
+
+    <!--  Results  -->
+    <string name="heart_rate">Ritm cardiac</string>
+    <string name="bpm">BPM</string>
+    <string name="beats_per_minute">bătăi pe minut</string>
+    <string name="measurement_complete">Măsurare finalizată</string>
+    <string name="result">Rezultat</string>
+    <string name="raw_data">Date brute</string>
+    <string name="standardized_values">Valori standardizate</string>
+    <string name="beat_timings">Momente detectate bătăi</string>
+
+    <!--  Chart  -->
+    <string name="chart_title">Grafic date captate</string>
+    <string name="time">Timp</string>
+    <string name="value">Valoare</string>
+
+    <!--  Errors  -->
+    <string name="error_no_camera">Nu s-a găsit cameră</string>
+    <string name="error_camera_permission">Este necesară permisiunea pentru cameră</string>
+    <string name="error_measurement_failed">Măsurarea a eșuat</string>
+    <string name="error_invalid_data">Date invalide</string>
+    <string name="camera_not_available">Camera nu este disponibilă</string>
+    <string name="camera_error">Eroare cameră</string>
+
+    <!--  Warnings  -->
+    <string name="warning_medical">Nu folosi aplicația în scopuri medicale!</string>
+    <string name="medical_disclaimer">Atenție: Această aplicație e doar pentru estimarea ritmului cardiac. Nu o folosi pentru diagnosticare sau scopuri medicale!</string>
+    <string name="not_for_medical_use">Nu folosi aplicația pentru scopuri medicale</string>
+
+    <!--  Menu  -->
+    <string name="menu_about">Despre</string>
+    <string name="menu_help">Ajutor</string>
+    <string name="menu_settings">Setări</string>
+    <string name="menu_share">Partajează</string>
+
+    <!--  About  -->
+    <string name="about_title">Despre HeartBeat</string>
+    <string name="about_description">O metodă simplă de estimare a ritmului cardiac folosind camera telefonului.</string>
+    <string name="about_how_it_works">Cum funcționează</string>
+    <string name="about_how_it_works_text">Telefonul analizează cantitatea de roșu captată de cameră și încearcă să calculeze ritmul cardiac pe baza schimbărilor subtile pe care le detectează.</string>
+    <string name="version">Versiune</string>
+    <string name="license">Licență</string>
+    <string name="source_code">Cod sursă</string>
+
+    <!--  Copy/Share  -->
+    <string name="copy_results">Copiază rezultatele</string>
+    <string name="copied_to_clipboard">Copiat în clipboard</string>
+    <string name="share_results">Partajează rezultatele</string>
+    <string name="share_text">Ritmul meu cardiac: %d BPM (măsurat cu HeartBeat)</string>
+
+    <!--  Permissions  -->
+    <string name="permission_camera_title">Permisiune cameră</string>
+    <string name="permission_camera_rationale">HeartBeat necesită acces la cameră pentru a măsura ritmul cardiac.</string>
+    <string name="grant_permission">Acordă permisiune</string>
+    <string name="permission_denied">Permisiune refuzată</string>
+
+    <!--  Settings  -->
+    <string name="settings_title">Setări</string>
+    <string name="dark_mode">Mod întunecat</string>
+    <string name="enable_flash">Activează blițul</string>
+    <string name="measurement_duration">Durata măsurării</string>
+    <string name="show_chart">Afișează graficul</string>
+
+    <!--  Status  -->
+    <string name="status_ready">Gata de măsurare</string>
+    <string name="status_measuring">Se măsoară</string>
+    <string name="status_processing">Se procesează</string>
+    <string name="status_complete">Finalizat</string>
+    <string name="status_error">Eroare</string>
+
+    <!--  Help  -->
+    <string name="help_title">Ajutor</string>
+    <string name="help_step1">1. Deschide aplicația HeartBeat</string>
+    <string name="help_step2">2. Plasează vârful degetului arătător peste lentila camerei</string>
+    <string name="help_step3">3. Acoperă camera și blițul</string>
+    <string name="help_step4">4. Nu apăsa prea tare (vei întrerupe circulația)</string>
+    <string name="help_step5">5. Stai nemișcat timp de 10–15 secunde</string>
+    <string name="help_step6">6. Așteaptă rezultatul</string>
+    <string name="help_tips_title">Sfaturi</string>
+    <string name="help_tip1">Funcționează cel mai bine într-un mediu întunecat</string>
+    <string name="help_tip2">Stai cât mai nemișcat posibil</string>
+    <string name="help_tip3">Durează între 10 și 30 de secunde pentru un rezultat precis</string>
+
+    <!--  Actions  -->
+    <string name="ok">OK</string>
+    <string name="cancel">Anulează</string>
+    <string name="retry">Reîncearcă</string>
+    <string name="close">Închide</string>
+    <string name="continue_text">Continuă</string>
+
+    <!--  Descriptions  -->
+    <string name="app_description">Estimează ritmul cardiac folosind camera</string>
+    <string name="short_description">Monitor de puls simplu pentru Android</string>
+</resources>
